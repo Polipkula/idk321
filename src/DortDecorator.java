@@ -5,6 +5,7 @@ public class DortDecorator {
         String dort = new ZeleDort(new FondanDort(new KremDort(new OrechDort(new PiskotDort(new Dort()))))).upecDort();
 
         System.out.println(dort);
+        int a;
 
     }
 
